@@ -22,7 +22,7 @@ int BinarySearch(int a[],int n,int key)
 int main()
 {
     int n;
-    cout<<"Enter the size of array:";
+    cout<<"Enter the size of array=";
     cin>>n;
     int a[n];
     for(int i=0; i<n;i++)
@@ -31,7 +31,7 @@ int main()
         cin>>a[i];
     }
     int key;
-    cout<<"Enter no. you want to search for:";
+    cout<<"Enter no. you want to search for=";
     cin>>key;
     cout<<BinarySearch(a,n,key);
     return 0;
